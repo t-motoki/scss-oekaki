@@ -1,5 +1,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Training SCSS with おえかき
+
+これはSCSSでお絵かきしていくプロジェクトです。
+Reactコンポーネント毎に残していきます。
+
 ## Available Scripts
 
 In the project directory, you can run:
