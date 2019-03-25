@@ -1,0 +1,88 @@
+.anpanman {
+  margin: 1%;
+  padding: 1%;
+  background-color: #fff;
+  .face {
+    position: relative;
+    border: solid 2px #000;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    margin: auto;
+
+    .eyebrowsline {
+      display: flex;
+      width: 300px;
+      top:20%;
+      left: 20%;
+      justify-content: space-around;
+      position: absolute;
+      .eyebrows {
+        width: 100px;
+        height: 100px;
+        background-color: #fff;
+        border-top:3px solid #000;
+        border-radius: 50%;
+      }
+    }
+
+    .eyeline {
+      display: flex;
+      width: 300px;
+      top:30%;
+      left: 20%;
+      justify-content: space-around;
+      position: absolute;
+      
+      .eye {
+        width: 35px;
+        height: 70px;
+        background-color: #000;
+        border-radius: 50%;
+      }
+    }
+
+    .noseline {
+      display: flex;
+      width: 500px;
+      top:45%;
+      left: 0%;
+      justify-content: center;
+      position: absolute;
+      z-index: 1;
+      .nose {
+        width: 150px;
+        height: 150px;
+        background-color: #fff;
+        border:3px solid #000;
+        border-radius: 50%;
+      }
+      .cheekleft {
+        width: 150px;
+        height: 150px;
+        background-color: #fff;
+        border-right:3px solid #000;
+        border-radius: 50%;
+      }
+      .cheekright {
+        width: 150px;
+        height: 150px;
+        background-color: #fff;
+        border-left:3px solid #000;
+        border-radius: 50%;
+      }
+    }
+  }
+
+  .mouth {
+    position: absolute;
+    background-color: #fff;
+    border-bottom:3px solid #000;
+    border-radius: 50%;
+    width: 150px;
+    height: 100px;
+    top:66%;
+    left: 35%;
+  }
+
+}
